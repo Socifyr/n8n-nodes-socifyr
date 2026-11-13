@@ -1,8 +1,8 @@
 # n8n-nodes-socifyr
 
 Official [Socifyr](https://socifyr.com) community node for [n8n](https://n8n.io) — publish, schedule, and manage
-social posts across **15 platforms** (Instagram, LinkedIn, X, TikTok, Facebook, YouTube, Threads, Pinterest,
-Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack) from n8n workflows.
+social posts across **18 platforms** (Instagram, LinkedIn, X, TikTok, Facebook, YouTube, Threads, Pinterest,
+Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack, Dev.to, Hashnode, Tumblr) from n8n workflows.
 
 ## Install
 

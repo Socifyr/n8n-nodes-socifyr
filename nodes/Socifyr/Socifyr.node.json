@@ -28,7 +28,7 @@
 	"defaults": {
 		"name": "Socifyr"
 	},
-	"aiDescription": "Use the Socifyr node to publish or schedule posts to 15 social platforms (Instagram, LinkedIn, X, TikTok, Facebook, YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack) using connection slugs like instagram-mybrand. Supports text/photo/video/document posts from media URLs or library IDs, drafts, scheduled publishing, async publishing with requestId polling, approval workflows (submit/approve/reject), retry and delete. Requires an Socifyr API key credential.",
+	"aiDescription": "Use the Socifyr node to publish or schedule posts to 18 social platforms (Instagram, LinkedIn, X, TikTok, Facebook, YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack, Dev.to, Hashnode, Tumblr) using connection slugs like instagram-mybrand. Supports text/photo/video/document posts from media URLs or library IDs, drafts, scheduled publishing, async publishing with requestId polling, approval workflows (submit/approve/reject), retry and delete. Requires an Socifyr API key credential.",
 	"inputs": ["main"],
 	"outputs": ["main"]
 }

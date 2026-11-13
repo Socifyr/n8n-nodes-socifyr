@@ -300,7 +300,7 @@ export class SocifyrNode implements INodeType {
 		group: ['output'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
-		description: 'Publish, schedule, and manage social posts across 15 platforms',
+		description: 'Publish, schedule, and manage social posts across 18 platforms',
 		defaults: { name: 'Socifyr' },
 		inputs: ['main'],
 		outputs: ['main'],
