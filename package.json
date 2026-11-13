@@ -1,0 +1,71 @@
+{
+  "name": "n8n-nodes-socifyr",
+  "version": "0.2.0",
+  "description": "Socifyr community node for n8n — publish, schedule, and manage social posts across 18 platforms, with per-key agent guardrails",
+  "keywords": [
+    "n8n-community-node-package",
+    "socifyr",
+    "social-media",
+    "instagram",
+    "linkedin",
+    "twitter",
+    "x",
+    "tiktok",
+    "facebook",
+    "youtube",
+    "threads",
+    "pinterest",
+    "telegram",
+    "discord",
+    "mastodon",
+    "nostr",
+    "slack"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://socifyr.com/docs/integrations/n8n",
+  "author": {
+    "name": "Nepal AI Labs",
+    "email": "hello@socifyr.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Socifyr/n8n-nodes-socifyr"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node scripts/copy-assets.mjs",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "prepack": "tsc && node scripts/copy-assets.mjs"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "README.md"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/SocifyrApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Socifyr/Socifyr.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "n8n-core": "^1.80.0",
+    "n8n-workflow": "^1.80.0",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "n8n-core": "^1.80.0",
+    "n8n-workflow": "^1.80.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Socifyr/n8n-nodes-socifyr/issues"
+  }
+}
