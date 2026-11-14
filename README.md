@@ -16,13 +16,13 @@ Add a **Socifyr API** credential with:
 
 | Field | Value |
 |---|---|
-| API Key | `sk_...` from Dashboard → API Keys |
+| API Key | `sk_...` from Dashboard → API & Integrations |
 | Base URL | default `https://api.socifyr.com/api`; change only for self-hosted |
 
 The key belongs to one workspace, so the node always posts there. To post to another workspace, add a second credential with that workspace's key.
 
 **Tip — keep agents safe:** create a dedicated key for n8n and give it agent guardrails
-(Dashboard → API Keys → shield icon): a daily post limit, an X spend cap, or *require
+(Dashboard → API & Integrations → shield icon): a daily post limit, an X spend cap, or *require
 approval* so every workflow-published post waits for human review. The node inherits all of
 it automatically.
 

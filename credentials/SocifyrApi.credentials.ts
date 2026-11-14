@@ -16,7 +16,7 @@ export class SocifyrApi implements ICredentialType {
 			type: 'string',
 			default: '',
 			description:
-				'Socifyr API key (starts with <code>sk_</code>). Create one in Dashboard → API Keys. Keys can carry agent guardrails (daily post limits, X spend caps, require-approval) — see the docs.',
+				'Socifyr API key (starts with <code>sk_</code>). Create one in Dashboard → API & Integrations. Keys can carry agent guardrails (daily post limits, X spend caps, require-approval) — see the docs.',
 			placeholder: 'sk_...',
 		},
 		{
